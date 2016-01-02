@@ -8,10 +8,5 @@
  * Controller of the devApp
  */
 angular.module('devApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+  .controller('DashboardCtrl', function ($scope) {
   });

@@ -21,8 +21,8 @@ angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/dashboard.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        controller: 'DashboardCtrl',
+        controllerAs: 'dash'
       })
       .when('/Users', {
         templateUrl: 'views/about.html',
