@@ -6,6 +6,8 @@ body {
   font-weight: 400;
   text-rendering: optimizeLegibility!important;
   -webkit-font-smoothing: antialiased!important;
+  background-color: #EFEFEF;
+  list-style-type: none;
 }
 
 .right {
@@ -14,6 +16,40 @@ body {
 
 .left {
   float: left;
+}
+
+.green {
+  background-color: #16a085!important;
+  color: #fff!important;
+}
+
+.red {
+  background-color: #e05d6f!important;
+  color: #fff!important;
+}
+
+.darkgery {
+  background-color: #3f4e62!important;
+  color: #fff!important;
+}
+
+.blue {
+  background-color: #418bca!important;
+  color: #fff!important;
+}
+
+.nostyle-span {
+  margin: 0;
+  padding: 0;
+}
+
+.nostyle-para {
+  margin: 0;
+  padding: 0;
+}
+
+.fullheight {
+  height: 100%;
 }
 
 .top-bar {
@@ -55,7 +91,7 @@ body {
   color: #fff;
   background-color: #3C3844;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 
 .chosen-bar-item {
@@ -69,7 +105,7 @@ body {
 .bar-user:hover {
   color: #EFEFEF;
   cursor: pointer;
-  transition: 0.2s ease;
+  transition: 0.2s ease-in-out;
 }
 
 .user-title {
